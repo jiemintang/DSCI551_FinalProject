@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Saleable 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20131118
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="header" class="container">
+	<div id="logo">
+		<h1><a href="#">LA Crime</a></h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="index.html" accesskey="1" title="">Homepage</a></li>
+			<li><a href="data.html" accesskey="2" title="">Data Exploration</a></li>
+			<li><a href="EDA.html" accesskey="3" title="">EDA</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="banner-wrapper">
+</div>
+
+<table class="table table-striped">
+	<thead class="thead-inverse">
+	  <tr>
+		<th>Area ID</th>
+		<th>Area Name</th>
+		<th>Crime Code Description</th>
+		<th>Date</th>
+		<th>Time</th>
+		<th>Victim Age</th>
+		<th>Victim Descent</th>
+		<th>Victim Sex</th>
+		<th>Weapon Description</th>
+	  </tr>
+	</thead>
+	<tbody id="ex-table"></tbody>
+  </table>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase.js"></script>
+  <script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+	  apiKey: "AIzaSyCM8Z4jvB8fp47A2hknBmWw3gK7DvM340Q",
+	  authDomain: "finalproject-22bb5.firebaseapp.com",
+	  databaseURL: "https://finalproject-22bb5.firebaseio.com",
+	  projectId: "finalproject-22bb5",
+	  storageBucket: "finalproject-22bb5.appspot.com",
+	  messagingSenderId: "539244819144",
+	  appId: "1:539244819144:web:9ca876bab451c856476bfd",
+	  measurementId: "G-2PW0N6VRN5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <!-- <script src = "http://code.jquery.com/jquery-3.1.0.js"></script> -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+
+<div id="copyright">
+	<ul class="contact">
+		<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+		<li><a href="#" class="icon icon-facebook"><span></span></a></li>
+		<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
+		<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
+		<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+	</ul>
+	
+	<p>&copy; Jiemin Tang All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+</body>
+</html>
